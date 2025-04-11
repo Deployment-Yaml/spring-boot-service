@@ -3,7 +3,7 @@ FROM openjdk:8-alpine
 # Required for starting application up.test the data
 RUN apk update && apk add /bin/sh
 ###
-
+##
 RUN mkdir -p /opt/app
 ENV PROJECT_HOME /opt/app
 
